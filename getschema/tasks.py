@@ -102,6 +102,23 @@ def get_objects_and_fields(schema):
 		'WorkOrderStatus',
 		'WorkOrderLineItemStatus',
 		'WorkType',
+		
+		# Financial Services Objects
+		'Claim',
+		'ClaimParticipant',
+		'CustomerProperty',
+		'Endorsement',
+		'FindObjectEvent',
+		'IdentityDocument',
+		'InsurancePolicy',
+		'InsurancePolicyAsset',
+		'InsurancePolicyCoverage',
+		'InsurancePolicyParticipant',
+		'InsuranceProfile',
+		'PersonEducation',
+		'PersonLifeEvent',
+		'Producer',
+		'Recommendation',
 	)
 
 	headers = {
